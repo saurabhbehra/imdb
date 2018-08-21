@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script src="jquery.3.3.1.js"></script>
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid jumbotron">
+			<div class="row">
+				<div class="col-12">
+					<h1 class="text-center">SEARCH YOUR MOVIE</h1>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<div class="form-group">
+						<label>Title/IMDB-ID/Year</label>
+						<input type="text"  id="title" class="form-control input-sm" placeholder="Enter Title/IMDB-ID/Year ">
+					</div>
+				</div>
+				
+				<div class="col-12">
+					<button class="btn btn-primary" id="display">Search</button>
+				</div><br>
+				<div class="col-12"><div id="errormsg"></div>
+			</div>
+		</div><BR>
+		<div class="container" id="showData" style="background:#141414">
+			
+		
+		</div>
+	</body>
+</html>
