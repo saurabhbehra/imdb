@@ -11,7 +11,7 @@ $(document).ready(function(){
 			type: 'GET',
 			dataType: 'json',
 			async: true,
-			url: 'https://www.omdbapi.com/?i=tt3896198&apikey=3898ef90',
+			url: 'http://www.omdbapi.com/?i=tt3896198&apikey=3898ef90',
 			success:(response)=>{
 				 var title=response.Title;
 				 var year=response.Year;
